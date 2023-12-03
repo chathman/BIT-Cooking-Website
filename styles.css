@@ -1,0 +1,55 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.recipe {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.recipe img {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Set a specific height for the images */
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
